@@ -1,0 +1,11 @@
+.exploreDetails h1 {
+  font-size: 3rem;
+  margin: 20px;
+  font-weight: 500;
+}
+
+.exploreDetails p {
+  text-align: justify;
+  width: 90vw;
+  margin: auto;
+}

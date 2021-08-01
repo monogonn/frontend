@@ -1,0 +1,492 @@
+/*! CSS Used from: http://jaipuruncharted.in/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2 ; media=all */
+@media all {
+  .has-text-align-center {
+    text-align: center;
+  }
+}
+/*! CSS Used from: http://jaipuruncharted.in/wp-content/themes/twentytwenty/style.css?ver=1.7 ; media=all */
+@media all {
+  .screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+    word-break: normal;
+  }
+  .screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    -webkit-clip-path: none;
+    clip-path: none;
+    color: #21759b;
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 700;
+    height: auto;
+    right: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0s !important;
+      transition-duration: 0s !important;
+    }
+  }
+  .head2 {
+    font-feature-settings: "lnum";
+    font-variant-numeric: lining-nums;
+    font-weight: 700;
+    letter-spacing: -0.0415625em;
+    line-height: 1.25;
+    margin: 3.5rem 0 2rem;
+  }
+  .heading-size-1 {
+    font-size: 3.6rem;
+    font-weight: 800;
+    line-height: 1.138888889;
+  }
+  .head2 {
+    font-size: 3.2rem;
+  }
+  .paraw {
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+  }
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+  .untitlis {
+    margin: 0 0 3rem 3rem;
+  }
+  /* ul {
+    list-style: disc;
+  } */
+  .listItem {
+    line-height: 1.5;
+    margin: 0.5rem 0 0 2rem;
+  }
+  svg {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  .section-inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 120rem;
+    width: calc(100% - 4rem);
+  }
+  .section-inner.medium {
+    max-width: 100rem;
+  }
+  /* body:not(.singular) main > article:first-of-type {
+    padding: 4rem 0 0;
+  } */
+  .entry-categories {
+    line-height: 1.25;
+    margin-bottom: 2rem;
+  }
+  .entry-categories-inner {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -0.5rem 0 0 -1rem;
+  }
+  .entry-categories a {
+    border-bottom: 0.15rem solid currentColor;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.036666667em;
+    margin: 0.5rem 0 0 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .entry-categories a:focus,
+  .entry-categories a:hover {
+    border-bottom-color: transparent;
+  }
+  h2.entry-title {
+    margin: 0;
+  }
+  .entry-title a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .entry-title a:focus,
+  .entry-title a:hover {
+    text-decoration: underline;
+  }
+  .post-meta-single-top .post-meta {
+    justify-content: center;
+  }
+  .post-meta-wrapper {
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 58rem;
+    width: 100%;
+  }
+  .post-meta {
+    color: #6d6d6d;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    font-weight: 500;
+    list-style: none;
+    margin: -1rem 0 0 -2rem;
+  }
+  .post-meta li {
+    flex-shrink: 0;
+    letter-spacing: -0.016875em;
+    margin: 1rem 0 0 2rem;
+    max-width: calc(100% - 2rem);
+  }
+  .post-meta a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .post-meta a:focus,
+  .post-meta a:hover {
+    text-decoration: underline;
+  }
+  .post-meta .meta-wrapper {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .post-meta .meta-icon {
+    flex-shrink: 0;
+    margin-right: 1rem;
+  }
+  .post-meta .post-author .meta-icon svg {
+    width: 1.6rem;
+    height: 1.8rem;
+  }
+  .post-meta .post-comment-link .meta-icon svg {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .post-meta .post-date .meta-icon svg {
+    width: 1.7rem;
+    height: 1.8rem;
+  }
+  .post-meta .post-tags .meta-icon svg {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .post-meta svg * {
+    fill: currentColor;
+  }
+  .post-inner {
+    padding-top: 5rem;
+  }
+  .post-meta-wrapper.post-meta-single-bottom {
+    margin-top: 3rem;
+  }
+  .has-text-align-center {
+    text-align: center;
+  }
+  .entry-content {
+    line-height: 1.5;
+  }
+  .entry-content > * {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.25em;
+  }
+  .entry-content > *:first-child {
+    margin-top: 0;
+  }
+  .entry-content > *:last-child {
+    margin-bottom: 0;
+  }
+  .entry-content p {
+    line-height: 1.4;
+  }
+  .entry-content {
+    font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond,
+      "Times New Roman", serif;
+    letter-spacing: normal;
+  }
+  .entry-content
+    > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    max-width: 58rem;
+    width: calc(100% - 4rem);
+  }
+  @media (max-width: 479px) {
+    .untitlis {
+      margin: 0 0 3rem 2rem;
+    }
+    .listItem {
+      margin: 0.5rem 0 0 1rem;
+    }
+  }
+  @media (min-width: 700px) {
+    .untitlis {
+      margin-bottom: 4rem;
+    }
+    .heading-size-1,
+    .head2 {
+      margin: 6rem auto 3rem;
+    }
+    .heading-size-1 {
+      font-size: 6.4rem;
+    }
+    .head2 {
+      font-size: 4.8rem;
+    }
+    .section-inner {
+      width: calc(100% - 8rem);
+    }
+    body:not(.singular) main > article:first-of-type {
+      padding: 8rem 0 0;
+    }
+    h2.entry-title {
+      font-size: 6.4rem;
+    }
+    .entry-categories {
+      margin-bottom: 3rem;
+    }
+    .entry-categories-inner {
+      margin: -1rem 0 0 -2rem;
+    }
+    .entry-categories a {
+      font-size: 1.5rem;
+      margin: 1rem 0 0 2rem;
+    }
+    .post-meta-wrapper {
+      margin-top: 3rem;
+    }
+    .post-meta {
+      font-size: 1.6rem;
+      margin: -1.4rem 0 0 -3rem;
+    }
+    .post-meta li {
+      margin: 1.4rem 0 0 3rem;
+      max-width: calc(100% - 3rem);
+    }
+    .post-inner {
+      padding-top: 8rem;
+    }
+    .post-meta-wrapper.post-meta-single-bottom {
+      margin-top: 4rem;
+    }
+    .entry-content {
+      font-size: 2.1rem;
+    }
+    .entry-content p {
+      line-height: 1.476;
+    }
+  }
+  @media (min-width: 1220px) {
+    .heading-size-1 {
+      font-size: 8.4rem;
+    }
+  }
+}
+/*! CSS Used from: Embedded */
+/* a {
+  color: #c61947;
+}
+.entry-title a {
+  color: #000000;
+}
+.post-meta {
+  color: #8b4569;
+} */
+/*! CSS Used from: http://jaipuruncharted.in/wp-content/themes/twentytwenty/print.css?ver=1.7 ; media=print */
+/* @media print {
+  @media print {
+    .entry-header {
+      margin: 0;
+    }
+    .entry-content,
+    .entry-content p,
+    .section-inner,
+    .section-inner.medium {
+      max-width: 100%;
+      width: 100%;
+    }
+    h2,
+    h2.entry-title {
+      font-size: 14pt;
+      margin-top: 1cm;
+    }
+    a {
+      page-break-inside: avoid;
+    }
+    h2 {
+      page-break-after: avoid;
+      page-break-inside: avoid;
+    }
+    ul {
+      page-break-before: avoid;
+    }
+    a:link,
+    a:visited,
+    a {
+      background: transparent;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    a {
+      page-break-inside: avoid;
+    }
+    a[href^="http"]:after {
+      content: " < " attr(href) "> ";
+    }
+    .post-meta-wrapper.post-meta-single-bottom {
+      display: none;
+    }
+  }
+} */
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: NonBreakingSpaceOverride;
+  src: url(data:application/font-woff2;charset=utf-8;base64,d09GMgABAAAAAAMoAA0AAAAACDQAAALTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP0ZGVE0cGh4GYACCahEICjx3CywAATYCJANUBCAFhiEHgWwbXQfILgpsY+rQRRARwyAs6uL7pxzYhxEE+32b3aeHmifR6tklkS9hiZA0ewkqGRJE+H7/+6378ASViK/PGeavqJyOzsceKi1s3BCiQsiOdn1r/RBgIJYEgCUhbm/8/8/h4saPssnTNkkiWUBrTRtjmQSajw3Ui3pZ3LYDPD+XG2C3JA/yKAS8/rU5eNfuGqRf4eNNgV4YAlIIgxglEkWe6FYpq10+wi3g+/nUgvgPFczNrz/RsTgVm/zfbPuHZlsuQECxuyqBcQwKFBjFgKO8AqP4bAN9tFJtnM9xPcbNjeXS/x1wY/xU52f5W/X1+9cnH4YwKIaoRRAkUkj/YlAAeF/624foiIDBgBmgQBeGAyhBljUPZUm/l2dTvmpqcBDUOHdbPZWd8JsBAsGr4w8/EDn82/bUPx4eh0YNrQTBuHO2FjQEAGBwK0DeI37DpQVqdERS4gZBhpeUhWCfLFz7J99aEBgsJCHvUGAdAPp4IADDCAPCEFMGpMZ9AQpTfQtQGhLbGVBZFV8BaqNyP68oTZgHNj3M8kBPfXTTC9t90UuzYhy9ciH0grVlOcqyCytisvbsERsEYztiznR0WCrmTksJwbSNK6fd1Rvr25I9oLvctUoEbNOmXJbqgYgPXEHJ82IUsrCnpkxh23F1rfZ2zcRnJYoXtauB3VTFkFXQg3uoZYD5qE0kdjDtoDoF1h2bulGmev5HbYhbrjtohQSRI4aNOkffIcT+d3v6atpaYh3JvPoQsztCcqvaBkppDSPcQ3bw3KaCBo1f5CJWTZEgW3LjLofYg51MaVezrx8xZitYbQ9KYeoRaqQdVLwSEfrKXLK1otCWOKNdR/YwYAfon5Yk8O2MJfSD10dPGA5PIJJQMkah0ugMJiv6x4Dm7LEa8xnrRGGGLAg4sAlbsA07sAt76DOsXKO3hIjtIlpnnFrt1qW4kh6NhS83P/6HB/fl1SMAAA==)
+      format("woff2"),
+    url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAAUQAA0AAAAACDQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAE9AAAABwAAAAchf5yU0dERUYAAATYAAAAHAAAAB4AJwAbT1MvMgAAAaAAAABJAAAAYJAcgU5jbWFwAAACIAAAAF4AAAFqUUxBZ2dhc3AAAATQAAAACAAAAAgAAAAQZ2x5ZgAAApAAAAAyAAAAPL0n8y9oZWFkAAABMAAAADAAAAA2Fi93Z2hoZWEAAAFgAAAAHQAAACQOSgWaaG10eAAAAewAAAAzAAAAVC7TAQBsb2NhAAACgAAAABAAAAAsAOQBAm1heHAAAAGAAAAAHQAAACAAWQALbmFtZQAAAsQAAAF6AAADIYvD/Adwb3N0AAAEQAAAAI4AAADsapk2o3jaY2BkYGAA4ov5mwzj+W2+MnCzXwCKMNzgCBSB0LfbQDQ7AxuI4mBgAlEAFKQIRHjaY2BkYGD3+NvCwMDBAALsDAyMDKhAFAA3+wH3AAAAeNpjYGRgYBBl4GBgYgABEMnIABJzAPMZAAVmAGUAAAB42mNgZlJhnMDAysDCKsKygYGBYRqEZtrDYMT4D8gHSmEHjgUFOQwODAqqf9g9/rYwMLB7MNUAhRlBcsxBrMlASoGBEQAj8QtyAAAAeNrjYGBkAAGmWQwMjO8gmBnIZ2NA0ExAzNjAAFYJVn0ASBsD6VAIDZb7AtELAgANIgb9AHjaY2BgYGaAYBkGRgYQSAHyGMF8FgYPIM3HwMHAxMDGoMCwQIFLQV8hXvXP//9AcRCfAcb///h/ygPW+w/vb7olBjUHCTCyMcAFGZmABBO6AogThgZgIUsXAEDcEzcAAHjaY2BgECMCyoEgACZaAed42mNgYmRgYGBnYGNgYAZSDJqMgorCgoqCjECRXwwNrCAKSP5mAAFGBiRgyAAAi/YFBQAAeNqtkc1OwkAUhU/5M25cEhcsZick0AwlBJq6MWwgJkAgYV/KAA2lJeUn+hY+gktXvpKv4dLTMqKycGHsTZNv7px7z50ZAFd4hYHjdw1Ls4EiHjVncIFnzVnc4F1zDkWjrzmPW+NNcwGlzIRKI3fJlUyrEjZQxb3mDH2fNGfRx4vmHKqG0JzHg6E0F9DOlFBGBxUI1GEzLNT4S0aLuTtsGAEUuYcQHkyg3KmIum1bNUvKlrjbbAIleqHHnS4iSudpQcySMYtdFiXlAxzSbAwfMxK6kZoHKhbjjespMTioOPZnzI+4ucCeTVyKMVKLfeAS6vSWaTinuZwzyy/Dc7vaed+6KaV0kukdPUk6yOcctZPvvxxqksq2lEW8RvHjMEO2FCl/zy6p3NEm0R9OFSafJdldc4QVeyaaObMBO0/5cCaa6d9Ggyubxire+lEojscdjoWUR1xGOy8KD8mG2ZLO2l2paDc3A39qmU2z2W5YNv5+u79e6QfGJY/hAAB42m3NywrCMBQE0DupWp/1AYI7/6DEaLQu66Mrd35BKUWKJSlFv1+rue4cGM7shgR981qSon+ZNwUJ8iDgoYU2OvDRRQ99DDDECAHGmGCKmf80hZSx/Kik/LliFbtmN6xmt+yOjdg9GztV4tROnRwX/Bsaaw51nt4Lc7tWaZYHp/MlzKx51LZs5htNri+2AAAAAQAB//8AD3jaY2BkYGDgAWIxIGZiYARCESBmAfMYAAR6AEMAAAABAAAAANXtRbgAAAAA2AhRFAAAAADYCNuG)
+      format("woff");
+}
+/*! CSS Used from: http://jaipuruncharted.in/wp-content/themes/twentytwenty/style.css?ver=1.7 ; media=all */
+@media all {
+  /* *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    word-break: break-word;
+    word-wrap: break-word;
+  } */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0s !important;
+      transition-duration: 0s !important;
+    }
+  }
+  .horLine {
+    border-style: solid;
+    border-width: 0.1rem 0 0 0;
+    border-color: #dcd7ca;
+    margin: 4rem 0;
+  }
+  hr.styled-separator {
+    background: linear-gradient(
+      to left,
+      currentColor calc(50% - 16px),
+      transparent calc(50% - 16px),
+      transparent calc(50% + 16px),
+      currentColor calc(50% + 16px)
+    );
+    background-color: transparent !important;
+    border: none;
+    height: 0.1rem;
+    overflow: visible;
+    position: relative;
+  }
+  hr.styled-separator {
+    color: #6d6d6d;
+  }
+  hr.styled-separator::before,
+  hr.styled-separator::after {
+    background: currentColor;
+    content: "";
+    display: block;
+    height: 1.6rem;
+    position: absolute;
+    top: calc(50% - 0.8rem);
+    transform: rotate(22.5deg);
+    width: 0.1rem;
+  }
+  hr.styled-separator::before {
+    left: calc(50% - 0.5rem);
+  }
+  hr.styled-separator::after {
+    right: calc(50% - 0.5rem);
+  }
+  .section-inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 120rem;
+    width: calc(100% - 4rem);
+  }
+  @media (min-width: 700px) {
+    .horLine {
+      margin: 8rem auto;
+    }
+    .section-inner {
+      width: calc(100% - 8rem);
+    }
+  }
+}
+/*! CSS Used from: Embedded */
+hr.styled-separator {
+  color: #8b4569;
+}
+.horLine {
+  border-color: #ecb0d0;
+}
+/*! CSS Used from: http://jaipuruncharted.in/wp-content/themes/twentytwenty/print.css?ver=1.7 ; media=print */
+@media print {
+  @media print {
+    .section-inner {
+      max-width: 100%;
+      width: 100%;
+    }
+    .post-separator {
+      display: none;
+    }
+  }
+}
+
+.latestBlogContainer {
+  background-color: rgba(255, 192, 203, 0.438);
+  height: 570px;
+  width: 570px;
+  padding: 25px;
+  font-size: 3.8rem;
+  margin-left: 2.8em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  overflow: auto;
+}
+
+.latestBlogContainer h6 {
+  font-weight: unset;
+  font-size: 3.7rem;
+}
+
+.latestBlog {
+  width: 100%;
+  margin: 10px;
+  margin-top: 1.1em;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.37);
+  color: #fff;
+  box-shadow: -14.9px 19px 2px #e0dddd;
+  border: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.readMore :hover {
+  cursor: pointer;
+}
